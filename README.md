@@ -10,8 +10,8 @@ This is a non-scientific, but good-faith benchmark showing that `@remotion/webco
 - Rounding: For `@remotion/webcodecs` the time is **rounded up** to the next second, for FFmpeg.wasm the time is **rounded down** to seconds.
 
 **Settings and versions**:
-`@remotion/webcodecs`: 4.0.244 through remotion.dev/convert.
-`FFmpeg.wasm`: Through ffmpeg.wide.video, tests executed on December 29, 2024. We selected this interface because it includes the SIMD version of FFmpeg.wasm, which should benefit its speed.
+`@remotion/webcodecs`: 4.0.244 through https://remotion.dev/convert.
+`FFmpeg.wasm`: Through https://ffmpeg.wide.video, tests executed on December 29, 2024. We selected this interface because it includes the SIMD version of FFmpeg.wasm, which should benefit its speed.
 
 ## Converting a MP4 to WebM
 
