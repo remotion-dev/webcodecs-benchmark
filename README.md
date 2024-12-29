@@ -2,9 +2,9 @@
 
 This is a non-scientific, but good-faith benchmark showing that `@remotion/webcodecs` is faster than FFmpeg.wasm to back up claims that we may make in order to promote `@remotion/webcodecs`.
 
-## Test conditions:
+## Test conditions
 
-- Each conversion is run 3 times, average is taken
+- Each conversion is run 3 times, average is taken.
 - We alternated between running a test using `@remotion/webcodecs` and alternatives to minimize system load differences
 - Tests were run on Google Chrome 131.0.6778.205 on a M2 MacBook Air running macOS 15.0.1. No other apps and websites were running.
 - Rounding: For `@remotion/webcodecs` the time is **rounded up** to the next second, for FFmpeg.wasm the time is **rounded down** to seconds.
